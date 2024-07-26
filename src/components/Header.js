@@ -35,19 +35,17 @@ const Header = () => {
                     <FontAwesomeIcon icon={faBars} />
                 </button>
             </div>
-            {menuOpen && (
-                <nav className="mobile-nav">
-                    <ul>
-                        <li><a href="#summary">Summary</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Professional Experience</a></li>
-                        <li><a href="#education">Academic Background</a></li>
-                        <li><a href="#skills">Key Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-            )}
+            <nav className={`mobile-nav ${menuOpen ? 'open' : ''}`}>
+                <ul>
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Professional Experience</a></li>
+                    <li><a href="#education">Academic Background</a></li>
+                    <li><a href="#skills">Key Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </header>
     );
 };
