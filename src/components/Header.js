@@ -1,11 +1,17 @@
 // src/components/Header.js
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'; // Using graduation cap as a placeholder
-import '../styles.css'; // Correct path to styles.css
+import { faGraduationCap, faBars } from '@fortawesome/free-solid-svg-icons';
+import '../styles.css';
 
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <header className="header">
             <div className="header-content">
@@ -25,7 +31,23 @@ const Header = () => {
                         <FontAwesomeIcon icon={faGraduationCap} />
                     </a>
                 </div>
+                <button className="menu-toggle" onClick={toggleMenu}>
+                    <FontAwesomeIcon icon={faBars} />
+                </button>
             </div>
+            {menuOpen && (
+                <nav className="mobile-nav">
+                    <ul>
+                        <li><a href="#summary">Summary</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Professional Experience</a></li>
+                        <li><a href="#education">Academic Background</a></li>
+                        <li><a href="#skills">Key Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            )}
         </header>
     );
 };
