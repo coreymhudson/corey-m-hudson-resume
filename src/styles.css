@@ -46,7 +46,7 @@ header .title {
     transition: color 0.3s;
 }
 
-social-icons a:hover {
+.social-icons a:hover {
     color: #2a9d8f;
 }
 
