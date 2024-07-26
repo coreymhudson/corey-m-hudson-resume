@@ -46,7 +46,7 @@ header .title {
     transition: color 0.3s;
 }
 
-.social-icons a:hover {
+social-icons a:hover {
     color: #2a9d8f;
 }
 
@@ -58,7 +58,7 @@ header .title {
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
     ), 
-    url('../public/nav-background-new.jpg') no-repeat center center;
+    url('/nav-background-new.jpg') no-repeat center center;
     background-size: cover;
     color: #264653;
     padding-top: 20px;
@@ -159,20 +159,7 @@ section:hover {
 /* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
     .sidebar {
-        width: 100%;
-        height: auto;
-        position: static;
-        box-shadow: none;
-    }
-
-    .sidebar ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .sidebar ul li {
-        margin: 10px;
+        display: none;
     }
 
     .content {
