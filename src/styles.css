@@ -58,7 +58,7 @@ social-icons a:hover {
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
     ), 
-    url('/nav-background-new.jpg') no-repeat center center;
+    url('../public/nav-background-new.jpg') no-repeat center center;
     background-size: cover;
     color: #264653;
     padding-top: 20px;
