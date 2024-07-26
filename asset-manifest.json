@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/corey-m-hudson-resume/static/css/main.c5532e1b.css",
-    "main.js": "/corey-m-hudson-resume/static/js/main.ecd4f809.js",
+    "main.css": "/corey-m-hudson-resume/static/css/main.fc7120e6.css",
+    "main.js": "/corey-m-hudson-resume/static/js/main.b5f2b717.js",
     "static/js/453.e74b5b6c.chunk.js": "/corey-m-hudson-resume/static/js/453.e74b5b6c.chunk.js",
     "index.html": "/corey-m-hudson-resume/index.html",
-    "main.c5532e1b.css.map": "/corey-m-hudson-resume/static/css/main.c5532e1b.css.map",
-    "main.ecd4f809.js.map": "/corey-m-hudson-resume/static/js/main.ecd4f809.js.map",
+    "main.fc7120e6.css.map": "/corey-m-hudson-resume/static/css/main.fc7120e6.css.map",
+    "main.b5f2b717.js.map": "/corey-m-hudson-resume/static/js/main.b5f2b717.js.map",
     "453.e74b5b6c.chunk.js.map": "/corey-m-hudson-resume/static/js/453.e74b5b6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5532e1b.css",
-    "static/js/main.ecd4f809.js"
+    "static/css/main.fc7120e6.css",
+    "static/js/main.b5f2b717.js"
   ]
 }
