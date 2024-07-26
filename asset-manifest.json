@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/corey-m-hudson-resume/static/css/main.2c7ba7d8.css",
-    "main.js": "/corey-m-hudson-resume/static/js/main.9c28285c.js",
+    "main.css": "/corey-m-hudson-resume/static/css/main.3c652cc1.css",
+    "main.js": "/corey-m-hudson-resume/static/js/main.3f5e7950.js",
     "static/js/453.e74b5b6c.chunk.js": "/corey-m-hudson-resume/static/js/453.e74b5b6c.chunk.js",
     "static/media/nav-background-new.jpg": "/corey-m-hudson-resume/static/media/nav-background-new.9a5c0ad5cff6372bf104.jpg",
     "index.html": "/corey-m-hudson-resume/index.html",
-    "main.2c7ba7d8.css.map": "/corey-m-hudson-resume/static/css/main.2c7ba7d8.css.map",
-    "main.9c28285c.js.map": "/corey-m-hudson-resume/static/js/main.9c28285c.js.map",
+    "main.3c652cc1.css.map": "/corey-m-hudson-resume/static/css/main.3c652cc1.css.map",
+    "main.3f5e7950.js.map": "/corey-m-hudson-resume/static/js/main.3f5e7950.js.map",
     "453.e74b5b6c.chunk.js.map": "/corey-m-hudson-resume/static/js/453.e74b5b6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c7ba7d8.css",
-    "static/js/main.9c28285c.js"
+    "static/css/main.3c652cc1.css",
+    "static/js/main.3f5e7950.js"
   ]
 }
