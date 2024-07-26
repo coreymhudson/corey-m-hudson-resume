@@ -19,6 +19,7 @@ header {
 .header-content {
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 header .name {
@@ -57,7 +58,7 @@ header .title {
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.3)
     ), 
-    url('../public/nav-background-new.jpg') no-repeat center center;
+    url('/nav-background-light-new.jpg') no-repeat center center;
     background-size: cover;
     color: #264653;
     padding-top: 20px;
@@ -153,4 +154,62 @@ section:hover {
 .experience ul, .skills ul {
     list-style-type: disc;
     padding-left: 20px;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: static;
+        box-shadow: none;
+    }
+
+    .sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .sidebar ul li {
+        margin: 10px;
+    }
+
+    .content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    header .name {
+        font-size: 2rem;
+    }
+
+    header .title {
+        font-size: 1.2rem;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .name {
+        font-size: 1.5rem;
+    }
+
+    header .title {
+        font-size: 1rem;
+    }
+
+    .social-icons a {
+        font-size: 1rem;
+        margin: 0 3px;
+    }
+
+    section {
+        margin: 10px 0;
+        padding: 10px;
+    }
 }
