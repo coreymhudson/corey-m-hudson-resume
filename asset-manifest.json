@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/corey-m-hudson-resume/static/css/main.31b1e5ba.css",
+    "main.css": "/corey-m-hudson-resume/static/css/main.e64fb5fa.css",
     "main.js": "/corey-m-hudson-resume/static/js/main.9c28285c.js",
     "static/js/453.e74b5b6c.chunk.js": "/corey-m-hudson-resume/static/js/453.e74b5b6c.chunk.js",
     "static/media/nav-background-new.jpg": "/corey-m-hudson-resume/static/media/nav-background-new.9a5c0ad5cff6372bf104.jpg",
     "index.html": "/corey-m-hudson-resume/index.html",
-    "main.31b1e5ba.css.map": "/corey-m-hudson-resume/static/css/main.31b1e5ba.css.map",
+    "main.e64fb5fa.css.map": "/corey-m-hudson-resume/static/css/main.e64fb5fa.css.map",
     "main.9c28285c.js.map": "/corey-m-hudson-resume/static/js/main.9c28285c.js.map",
     "453.e74b5b6c.chunk.js.map": "/corey-m-hudson-resume/static/js/453.e74b5b6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31b1e5ba.css",
+    "static/css/main.e64fb5fa.css",
     "static/js/main.9c28285c.js"
   ]
 }
