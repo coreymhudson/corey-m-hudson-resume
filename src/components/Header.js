@@ -18,7 +18,7 @@ const Header = () => {
                 <h1 className="name">Corey M. Hudson</h1>
                 <h2 className="title">Executive Leadership | Data Scientist</h2>
                 <div className="social-icons">
-                    <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/corey-m-hudson" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                     <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
