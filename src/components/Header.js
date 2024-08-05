@@ -21,13 +21,10 @@ const Header = () => {
                     <a href="https://www.linkedin.com/in/corey-m-hudson" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/coreymhudson" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
-                        <FontAwesomeIcon icon={faTwitter} />
-                    </a>
-                    <a href="https://scholar.google.com/citations?user=your-profile" target="_blank" rel="noopener noreferrer">
+                    <a href="https://scholar.google.com/citations?hl=en&user=GbY7pcQAAAAJ" target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGraduationCap} />
                     </a>
                 </div>
